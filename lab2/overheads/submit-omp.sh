@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#SBATCH --job-name=submit-omp.sh
+#SBATCH -D .
+#SBATCH --output=submit-omp.sh.o%j
+#SBATCH --error=submit-omp.sh.e%j
+#SBATCH --partition=execution
+
+USAGE="\n USAGE: submit-omp.sh PROG size n_th\n
+        PROG   -> omp program name\n
+        size   -> size of the problem\n
+        n_th   -> number of threads\n"
+
+if (test $# -lt 3 || test $# -gt 3)
+then
+	echo -e $USAGE
+        exit 0
+fi
+
+
+HOST=$(echo $HOSTNAME | cut -f 1 -d'.')
+
+if [ ${HOST} = 'boada-11' ] || [ ${HOST} = 'boada-12' ] || [ ${HOST} == 'boada-13' ]
+then
+    echo "Use sbatch to execute this script"
+    exit 0
+fi
+
+make clean
+make $1 2>&1
+if [[ $? -ne 0 ]]; then
+    echo "Abort: Compilation Error"
+    exit 0
+fi
+export OMP_NUM_THREADS=$3
+export KMP_AFFINITY=scatter
+
+export LD_PRELOAD=${INTEL_PATCH}/libhack.so
+/usr/bin/time ./$1 $2 $3 > $1-$2-$3-${HOST}.txt
+export LD_PRELOAD=""
+

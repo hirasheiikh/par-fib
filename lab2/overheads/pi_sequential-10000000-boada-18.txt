@@ -1,0 +1,2 @@
+Wall clock execution time  = 0.149215937 seconds
+Value of pi = 3.1415926536

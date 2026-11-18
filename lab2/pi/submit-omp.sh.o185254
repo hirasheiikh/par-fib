@@ -1,0 +1,8 @@
+rm -f *-omp *-debug
+icx pi-v8.c -g -Wall -std=c99 -O3 -qopenmp -fno-inline -I. -o pi-v8-omp -L. -lm
+Thread 1 finished with the computation, partial value for pi=0.7853981884
+Thread 0 finished with the computation, partial value for pi=0.7853982384
+Thread 2 finished with the computation, partial value for pi=0.7853981384
+Thread 3 finished with the computation, partial value for pi=0.7853980884
+Wall clock execution time  = 0.013502121 seconds
+Value of pi = 3.1415926536

@@ -1,0 +1,2 @@
+rm -rf pi_sequential pi_omp_parallel pi_omp_tasks pi_omp_critical pi_omp_atomic pi_omp_sumlocal pi_omp_reduction
+icx -Wall -O0 -std=c99 -qopenmp -DNUMITERS=1 pi_omp_sumlocal.c -o pi_omp_sumlocal 

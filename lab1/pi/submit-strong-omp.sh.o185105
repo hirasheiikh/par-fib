@@ -1,0 +1,271 @@
+icx -g -O3 -std=c99 -march=native pi_seq.c -o pi_seq
+icx -g -O3 -std=c99 -march=native -qopenmp pi_omp.c -o pi_omp
+Executing pi_seq sequentially
+Run 0...Elapsed time = 0.693233
+Run 1...Elapsed time = 0.693000
+Run 2...Elapsed time = 0.693464
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.693000
+
+pi_omp 1000000000 1 32 3
+Starting OpenMP executions...
+Executing pi_omp with 1 threads
+Run 0...Elapsed time = 0.705687
+Run 1...Elapsed time = 0.696969
+Run 2...Elapsed time = 0.696657
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.696657
+
+Executing pi_omp with 2 threads
+Run 0...Elapsed time = 0.350279
+Run 1...Elapsed time = 0.350692
+Run 2...Elapsed time = 0.350441
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.350279
+
+Executing pi_omp with 3 threads
+Run 0...Elapsed time = 0.236802
+Run 1...Elapsed time = 0.235228
+Run 2...Elapsed time = 0.235313
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.235228
+
+Executing pi_omp with 4 threads
+Run 0...Elapsed time = 0.178075
+Run 1...Elapsed time = 0.177058
+Run 2...Elapsed time = 0.178042
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.177058
+
+Executing pi_omp with 5 threads
+Run 0...Elapsed time = 0.143753
+Run 1...Elapsed time = 0.142486
+Run 2...Elapsed time = 0.143173
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.142486
+
+Executing pi_omp with 6 threads
+Run 0...Elapsed time = 0.120355
+Run 1...Elapsed time = 0.119755
+Run 2...Elapsed time = 0.119020
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.119020
+
+Executing pi_omp with 7 threads
+Run 0...Elapsed time = 0.103343
+Run 1...Elapsed time = 0.102979
+Run 2...Elapsed time = 0.102781
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.102781
+
+Executing pi_omp with 8 threads
+Run 0...Elapsed time = 0.091830
+Run 1...Elapsed time = 0.090170
+Run 2...Elapsed time = 0.091079
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.090170
+
+Executing pi_omp with 9 threads
+Run 0...Elapsed time = 0.082207
+Run 1...Elapsed time = 0.081796
+Run 2...Elapsed time = 0.080903
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.080903
+
+Executing pi_omp with 10 threads
+Run 0...Elapsed time = 0.074391
+Run 1...Elapsed time = 0.074967
+Run 2...Elapsed time = 0.073789
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.073789
+
+Executing pi_omp with 11 threads
+Run 0...Elapsed time = 0.067366
+Run 1...Elapsed time = 0.066833
+Run 2...Elapsed time = 0.067047
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.066833
+
+Executing pi_omp with 12 threads
+Run 0...Elapsed time = 0.062192
+Run 1...Elapsed time = 0.062401
+Run 2...Elapsed time = 0.062747
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.062192
+
+Executing pi_omp with 13 threads
+Run 0...Elapsed time = 0.058710
+Run 1...Elapsed time = 0.058549
+Run 2...Elapsed time = 0.058005
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.058005
+
+Executing pi_omp with 14 threads
+Run 0...Elapsed time = 0.054062
+Run 1...Elapsed time = 0.054901
+Run 2...Elapsed time = 0.054769
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.054062
+
+Executing pi_omp with 15 threads
+Run 0...Elapsed time = 0.051398
+Run 1...Elapsed time = 0.050621
+Run 2...Elapsed time = 0.050595
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.050595
+
+Executing pi_omp with 16 threads
+Run 0...Elapsed time = 0.048553
+Run 1...Elapsed time = 0.047690
+Run 2...Elapsed time = 0.048257
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.047690
+
+Executing pi_omp with 17 threads
+Run 0...Elapsed time = 0.045726
+Run 1...Elapsed time = 0.045176
+Run 2...Elapsed time = 0.046236
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.045176
+
+Executing pi_omp with 18 threads
+Run 0...Elapsed time = 0.043500
+Run 1...Elapsed time = 0.043882
+Run 2...Elapsed time = 0.043049
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.043049
+
+Executing pi_omp with 19 threads
+Run 0...Elapsed time = 0.041993
+Run 1...Elapsed time = 0.040868
+Run 2...Elapsed time = 0.040970
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.040868
+
+Executing pi_omp with 20 threads
+Run 0...Elapsed time = 0.040026
+Run 1...Elapsed time = 0.040198
+Run 2...Elapsed time = 0.039900
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.039900
+
+Executing pi_omp with 21 threads
+Run 0...Elapsed time = 0.038606
+Run 1...Elapsed time = 0.037973
+Run 2...Elapsed time = 0.038012
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.037973
+
+Executing pi_omp with 22 threads
+Run 0...Elapsed time = 0.037968
+Run 1...Elapsed time = 0.036891
+Run 2...Elapsed time = 0.036457
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.036457
+
+Executing pi_omp with 23 threads
+Run 0...Elapsed time = 0.035016
+Run 1...Elapsed time = 0.035212
+Run 2...Elapsed time = 0.035051
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.035016
+
+Executing pi_omp with 24 threads
+Run 0...Elapsed time = 0.034167
+Run 1...Elapsed time = 0.033894
+Run 2...Elapsed time = 0.033527
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.033527
+
+Executing pi_omp with 25 threads
+Run 0...Elapsed time = 0.033648
+Run 1...Elapsed time = 0.033531
+Run 2...Elapsed time = 0.033278
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.033278
+
+Executing pi_omp with 26 threads
+Run 0...Elapsed time = 0.031580
+Run 1...Elapsed time = 0.032119
+Run 2...Elapsed time = 0.031940
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.031580
+
+Executing pi_omp with 27 threads
+Run 0...Elapsed time = 0.029929
+Run 1...Elapsed time = 0.031883
+Run 2...Elapsed time = 0.032006
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.029929
+
+Executing pi_omp with 28 threads
+Run 0...Elapsed time = 0.029951
+Run 1...Elapsed time = 0.030964
+Run 2...Elapsed time = 0.029861
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.029861
+
+Executing pi_omp with 29 threads
+Run 0...Elapsed time = 0.029829
+Run 1...Elapsed time = 0.028856
+Run 2...Elapsed time = 0.028756
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.028756
+
+Executing pi_omp with 30 threads
+Run 0...Elapsed time = 0.028053
+Run 1...Elapsed time = 0.028595
+Run 2...Elapsed time = 0.027629
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.027629
+
+Executing pi_omp with 31 threads
+Run 0...Elapsed time = 0.027226
+Run 1...Elapsed time = 0.028127
+Run 2...Elapsed time = 0.027710
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.027226
+
+Executing pi_omp with 32 threads
+Run 0...Elapsed time = 0.027255
+Run 1...Elapsed time = 0.026809
+Run 2...Elapsed time = 0.028470
+ELAPSED TIME MIN OF 3 EXECUTIONS =0.026809
+
+Resultat de l'experiment (tambe es troben a  ./elapsed-boada-18.txt  i  ./speedup-boada-18.txt  )
+#threads	Elapsed min
+1   0.696657
+2   0.350279
+3   0.235228
+4   0.177058
+5   0.142486
+6   0.119020
+7   0.102781
+8   0.090170
+9   0.080903
+10   0.073789
+11   0.066833
+12   0.062192
+13   0.058005
+14   0.054062
+15   0.050595
+16   0.047690
+17   0.045176
+18   0.043049
+19   0.040868
+20   0.039900
+21   0.037973
+22   0.036457
+23   0.035016
+24   0.033527
+25   0.033278
+26   0.031580
+27   0.029929
+28   0.029861
+29   0.028756
+30   0.027629
+31   0.027226
+32   0.026809
+
+#threads	Speedup
+1   .99475064486540722335
+2   1.97842291430545365265
+3   2.94607784787525294607
+4   3.91397169289159484462
+5   4.86363572561514815490
+6   5.82255083179297597042
+7   6.74249131648845603759
+8   7.68548297659975601641
+9   8.56581338145680629890
+10   9.39164374093699602921
+11   10.36912902308739694462
+12   11.14291227167481348083
+13   11.94724592707525213343
+14   12.81861566349746587251
+15   13.69700563296768455380
+16   14.53134829104634095198
+17   15.34000354170355941207
+18   16.09793491138005528583
+19   16.95703239698541646275
+20   17.36842105263157894736
+21   18.24980907486898585837
+22   19.00869517513783361220
+23   19.79095270733379026730
+24   20.66990783547588510752
+25   20.82456878418174169120
+26   21.94426852438252058264
+27   23.15479969260583380667
+28   23.20752821405847091524
+29   24.09931840311587147030
+30   25.08234101849505953889
+31   25.45361051935649746565
+32   25.84952814353388787347
+

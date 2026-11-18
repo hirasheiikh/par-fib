@@ -1,0 +1,1 @@
+icx -g -O3 -std=c99 -march=native -qopenmp pi_omp.c -o pi_omp

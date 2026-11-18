@@ -1,0 +1,3 @@
+rm -f *-omp *-debug
+make: *** No rule to make target 'piv0-omp'.  Stop.
+Abort: Compilation Error

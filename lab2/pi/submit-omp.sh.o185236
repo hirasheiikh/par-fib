@@ -1,0 +1,4 @@
+rm -f *-omp *-debug
+icx pi-v6.c -g -Wall -std=c99 -O3 -qopenmp -fno-inline -I. -o pi-v6-omp -L. -lm
+Wall clock execution time  = 0.009522200 seconds
+Value of pi = 3.1415926536
