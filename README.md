@@ -6,6 +6,12 @@
 [![API](https://img.shields.io/badge/API-OpenMP-005571?style=for-the-badge)](https://www.openmp.org)
 [![University](https://img.shields.io/badge/UPC-FIB-0070BA?style=for-the-badge)](https://www.fib.upc.edu)
 
+> [!NOTE]
+> **Estat del repositori & Progrés acadèmic:**  
+> Aquest repositori recull les pràctiques i laboratoris que he anat completant. Com a assignatura que estic cursant, aniré afegint continguts progressivament un cop superats els terminis d'avaluació.  
+> 
+> *Té una finalitat secundària com a demostració del meu coneixement base en sistemes d'alt rendiment, concurrència i optimització d'arquitectures (la meva dedicació primordial se centra en projectes d'enginyeria de programari).*
+
 ---
 
 ## 📚 Blocs i Continguts
